@@ -21,16 +21,16 @@ nav {
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top;
     display: compact;
-    color: white;
+    color: black;
     margin-bottom: 0 !important;
     padding-bottom: 0;
 }
 
 .jumbotron-heading {
     position: relative;
-    top: 50px;
+    top: 40px;
 }
 
 .container {
