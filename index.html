@@ -93,6 +93,28 @@
             .fa-map-marker:hover {
                 opacity: 1;
             }
+            
+            .alert {
+                padding: 20px;
+                background-color: #f44336;
+                color: white;
+            }
+
+            .closebtn {
+                margin-left: 15px;
+                color: white;
+                font-weight: bold;
+                float: right;
+                font-size: 22px;
+                line-height: 20px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+            .closebtn:hover {
+                color: black;
+                transition: 0.3s;
+            }
         </style>
         
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109227996-1"></script>
@@ -134,6 +156,10 @@
             <div class="content">
                 <h1>Cleave Hay</h1>
                 <p class="lead"><em><span style="font-size: 18pt;"><strong>E</strong></span>quip and <span style="font-size: 18pt;"><strong>E</strong></span>mpower</em><br /><span style="font-size: 10px; position: relative; top: -7px;"><i class="fa fa-map-marker" style="font-size: 8pt; margin-right: 4px; position: relative;"></i>Dunedin, Otago, NZ</span></p>
+                <div class="alert">
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                    <strong>WARNING!</strong> This website is under intense development, pages may be missing or incomplete!
+                </div>
                 <a href="bio.html" class="btn btn-2" role="button">Bio</a>
                 <a href="services.html" class="btn btn-2" role="button">Services</a>
                 <a href="contact.html" class="btn btn-2" role="button">Contact</a>
